@@ -1,0 +1,60 @@
+{
+  "name": "脚本面板",
+  "short_name": "脚本面板",
+  "description": "脚本管理面板移动客户端 - 管理你的自动化脚本",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1A1D23",
+  "theme_color": "#1A1D23",
+  "icons": [
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-72_0a4ad28b.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-96_cc295a16.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-128_24d356bc.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-144_1364e2ae.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-152_82785861.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-192_20cb1e22.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-384_10318962.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-512_2db03a62.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

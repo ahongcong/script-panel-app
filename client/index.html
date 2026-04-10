@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="脚本面板" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#1A1D23" />
+    <meta name="application-name" content="脚本面板" />
+    <meta name="msapplication-TileColor" content="#1A1D23" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>脚本面板</title>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-192_20cb1e22.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-152_82785861.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-144_1364e2ae.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663538217365/ZawzBHKHWB6NgRqDbWKRSj/pwa-icon-192_20cb1e22.png" />
+
+    <!-- Apple Splash Screens (iPhone) -->
+    <meta name="apple-mobile-web-app-orientations" content="portrait" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Apple Splash Screen Color -->
+    <style>
+      html, body { background-color: #1A1D23; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script defer src="%VITE_ANALYTICS_ENDPOINT%/umami" data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+
+    <!-- Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
