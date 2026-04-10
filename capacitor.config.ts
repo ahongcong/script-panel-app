@@ -14,18 +14,6 @@ const config: CapacitorConfig = {
     scheme: 'ScriptPanel',
     backgroundColor: '#1A1D23',
   },
-  plugins: {
-    StatusBar: {
-      style: 'LIGHT',
-      backgroundColor: '#1A1D23',
-    },
-    SplashScreen: {
-      launchAutoHide: true,
-      launchShowDuration: 1500,
-      backgroundColor: '#1A1D23',
-      showSpinner: false,
-    },
-  },
 };
 
 export default config;
